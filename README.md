@@ -25,7 +25,8 @@ This is a simple Todo application built with FastAPI and asyncpg. It provides a 
    ```
 4. Set the `DB_SECRET` environment variable to your PostgreSQL connection string.
 5. Run the application using Poetry:
-   `bash
- poetry run uvicorn fastapi_todo.main:app
- `
-   Please note that this application is a simple example and might need to be adjusted based on your specific needs.
+   ```bash
+ poetry run uvicorn fastapi_todo.main:app```
+
+
+ Please note that this application is a simple example and might need to be adjusted based on your specific needs.
